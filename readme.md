@@ -1864,8 +1864,6 @@ bluetoothle.startAdvertising(success, error, params);
 ##### Params #####
 ```javascript
 var params = {
-  "services":["1234"], //iOS
-  "service":"1234", //Android
   "name":"Hello World",
 };
 ```
@@ -1873,9 +1871,7 @@ var params = {
 
 ##### Return #####
 ```javascript
-{
-  "status":"advertisingStarted"
-}
+NOTHING
 ```
 
 
